@@ -4,5 +4,3 @@ services:
     image: ghcr.io/thongtong/bookinfo-details:dev
     ports:
       - "9080:9080"
-    environment:
-      SERVICE_VERSION: v1
